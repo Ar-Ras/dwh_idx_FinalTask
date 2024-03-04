@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_iX3JYNeiEe6rf-aqFKFexg" name="transaction_csv" dataPackage="_iX3JYdeiEe6rf-aqFKFexg" Server="Localhost 127.0.0.1" FilePath="D:/Kuliah/Rakamin/ID-X Data Engineering/drive-download-20240301T035046Z-001/transaction_csv.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_iX3JYdeiEe6rf-aqFKFexg" name="default" dataManager="_iX3JYNeiEe6rf-aqFKFexg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_iX3JYteiEe6rf-aqFKFexg" id="_TUpB0NeiEe6rf-aqFKFexg" label="transact_csv">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iX3JY9eiEe6rf-aqFKFexg" label="transaction_id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iX3JZNeiEe6rf-aqFKFexg" label="account_id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iX3JZdeiEe6rf-aqFKFexg" label="transaction_date" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iX3JZteiEe6rf-aqFKFexg" label="amount" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iX3JZ9eiEe6rf-aqFKFexg" label="transaction_type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iX3JaNeiEe6rf-aqFKFexg" label="branch_id" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
